@@ -1,0 +1,768 @@
+2025/11/23 19:18:04 [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/23 19:18:04 [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/23 19:18:04 [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/23 19:18:04 [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/23 19:18:04 [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio1\packer_cache
+e: cannot determine if process is in background: Process background check error: not implemented yet
+2025/11/23 19:18:04 [TRACE] listing potential installations for <nil> that match "". plugingetter.ListInstallationsOptions{PluginDirectory:"C:\\Users\\iscju\\AppData\\Roaming\\packer.d\\plugins", BinaryInstallationOptions:plugingetter.BinaryInstallationOptions{APIVersionMajor:"5", APIVersionMinor:"0", OS:"windows", ARCH:"amd64", Ext:".exe", Checksummers:[]plugingetter.Checksummer{plugingetter.Checksummer{Type:"sha256", Hash:(*sha256.digest)(0xc0000d8780)}}, ReleasesOnly:false}}
+2025/11/23 19:18:05 [INFO] found external [chroot ebs ebssurrogate ebsvolume instance] builders from amazon plugin
+2025/11/23 19:18:05 [INFO] found external [import] post-processors from amazon plugin
+2025/11/23 19:18:05 found external [ami parameterstore secretsmanager] datasource from amazon plugin
+2025/11/23 19:18:05 [TRACE] Using protobuf for communication with plugins
+2025/11/23 19:18:05 [INFO] Starting external plugin C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\amazon\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe start builder --protobuf ebs
+2025/11/23 19:18:05 Starting plugin: C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\amazon\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe []string{"C:\\Users\\iscju\\AppData\\Roaming\\packer.d\\plugins\\github.com\\hashicorp\\amazon\\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe", "start", "builder", "--protobuf", "ebs"}
+2025/11/23 19:18:05 Waiting for RPC address for: C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\amazon\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe
+2025/11/23 19:18:05 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:05 Plugin port range: [10000,25000]
+2025/11/23 19:18:05 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:05 Plugin address: tcp 127.0.0.1:10000
+2025/11/23 19:18:05 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:05 Waiting for connection...
+2025/11/23 19:18:05 Received tcp RPC address for C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\amazon\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe: addr is 127.0.0.1:10000
+2025/11/23 19:18:05 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:05 Serving a plugin connection...
+2025/11/23 19:18:05 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:05 [TRACE] starting builder ebs
+2025/11/23 19:18:05 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-shell
+2025/11/23 19:18:05 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-shell"}
+2025/11/23 19:18:05 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2025/11/23 19:18:05 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/23 19:18:05 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/23 19:18:05 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/23 19:18:05 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/23 19:18:05 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio1\packer_cache
+2025/11/23 19:18:05 packer.exe plugin: Plugin port range: [10000,25000]
+2025/11/23 19:18:05 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
+2025/11/23 19:18:05 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2025/11/23 19:18:05 packer.exe plugin: Waiting for connection...
+2025/11/23 19:18:05 packer.exe plugin: Serving a plugin connection...
+2025/11/23 19:18:05 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-shell
+2025/11/23 19:18:05 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-shell"}
+2025/11/23 19:18:05 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2025/11/23 19:18:05 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/23 19:18:05 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/23 19:18:05 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/23 19:18:05 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/23 19:18:05 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio1\packer_cache
+2025/11/23 19:18:05 packer.exe plugin: Plugin port range: [10000,25000]
+2025/11/23 19:18:05 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
+2025/11/23 19:18:05 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2025/11/23 19:18:05 packer.exe plugin: Waiting for connection...
+2025/11/23 19:18:05 packer.exe plugin: Serving a plugin connection...
+2025/11/23 19:18:05 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-file
+2025/11/23 19:18:05 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-file"}
+2025/11/23 19:18:05 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2025/11/23 19:18:05 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/23 19:18:05 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/23 19:18:05 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/23 19:18:05 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/23 19:18:05 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio1\packer_cache
+2025/11/23 19:18:05 packer.exe plugin: Plugin port range: [10000,25000]
+2025/11/23 19:18:05 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
+2025/11/23 19:18:05 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2025/11/23 19:18:05 packer.exe plugin: Waiting for connection...
+2025/11/23 19:18:05 packer.exe plugin: Serving a plugin connection...
+2025/11/23 19:18:05 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-shell
+2025/11/23 19:18:05 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-shell"}
+2025/11/23 19:18:05 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2025/11/23 19:18:05 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/23 19:18:05 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/23 19:18:05 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/23 19:18:05 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/23 19:18:05 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio1\packer_cache
+2025/11/23 19:18:05 packer.exe plugin: Plugin port range: [10000,25000]
+2025/11/23 19:18:05 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2025/11/23 19:18:05 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
+2025/11/23 19:18:05 packer.exe plugin: Waiting for connection...
+2025/11/23 19:18:05 packer.exe plugin: Serving a plugin connection...
+2025/11/23 19:18:05 Preparing build: amazon-ebs
+2025/11/23 19:18:05 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:05 [INFO] (aws): No AWS timeout and polling overrides have been set. Packer will default to waiter-specific delays and timeouts. If you would like to customize the length of time between retries and max number of retries you may do so by setting the environment variables AWS_POLL_DELAY_SECONDS and AWS_MAX_ATTEMPTS or the configuration options aws_polling_delay_seconds and aws_polling_max_attempts to your desired values.
+2025/11/23 19:18:05 ui: amazon-ebs: output will be in this color.
+2025/11/23 19:18:05 ui: 
+2025/11/23 19:18:05 Build debug mode: false
+2025/11/23 19:18:05 Force build: false
+2025/11/23 19:18:05 On error: 
+2025/11/23 19:18:05 Waiting on builds to complete...
+2025/11/23 19:18:05 Starting build run: amazon-ebs
+2025/11/23 19:18:05 Running builder: amazon-ebs
+2025/11/23 19:18:05 [INFO] (telemetry) Starting builder amazon-ebs
+2025/11/23 19:18:05 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:05 Found region us-east-1
+2025/11/23 19:18:05 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:05 [INFO] AWS Auth provider used: "StaticCredentials"
+2025/11/23 19:18:05 ui: ==> amazon-ebs: Prevalidating any provided VPC information
+2025/11/23 19:18:05 ui: ==> amazon-ebs: Prevalidating AMI Name: act1-DMD-ubuntu-nodejs-nginx
+2025/11/23 19:18:06 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:06 Using AMI Filters {
+2025/11/23 19:18:06 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin:   "DryRun": null,
+2025/11/23 19:18:06 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin:   "ExecutableUsers": null,
+2025/11/23 19:18:06 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin:   "Filters": null,
+2025/11/23 19:18:06 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin:   "ImageIds": [
+2025/11/23 19:18:06 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin:     "ami-0ecb62995f68bb549"
+2025/11/23 19:18:06 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin:   ],
+2025/11/23 19:18:06 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin:   "IncludeDeprecated": false,
+2025/11/23 19:18:06 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin:   "IncludeDisabled": null,
+2025/11/23 19:18:06 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin:   "MaxResults": null,
+2025/11/23 19:18:06 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin:   "NextToken": null,
+2025/11/23 19:18:06 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin:   "Owners": null
+2025/11/23 19:18:06 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: }
+2025/11/23 19:18:06 ui: ==> amazon-ebs: Found Image ID: ami-0ecb62995f68bb549
+2025/11/23 19:18:06 ui: ==> amazon-ebs: Creating temporary keypair: packer_6923b24d-fcc0-6f5e-609d-f8046d89a252
+2025/11/23 19:18:06 ui: ==> amazon-ebs: Creating temporary security group for this instance: packer_6923b24e-2c99-b659-26df-55cb4a1a0c99
+2025/11/23 19:18:06 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:06 [DEBUG] Waiting for temporary security group: sg-047161c08a1185a8b
+2025/11/23 19:18:07 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:07 [DEBUG] Found security group sg-047161c08a1185a8b
+2025/11/23 19:18:07 ui: ==> amazon-ebs: Authorizing access to port 22 from [0.0.0.0/0] in the temporary security groups...
+2025/11/23 19:18:07 ui: ==> amazon-ebs: Launching a source AWS instance...
+2025/11/23 19:18:09 ui: ==> amazon-ebs: Instance ID: i-07b1b7c45fb7c2d27
+2025/11/23 19:18:09 ui: ==> amazon-ebs: Waiting for instance (i-07b1b7c45fb7c2d27) to become ready...
+2025/11/23 19:18:24 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:24 [INFO] Not using winrm communicator, skipping get password...
+2025/11/23 19:18:24 ui: ==> amazon-ebs: Using SSH communicator to connect: 54.236.250.127
+2025/11/23 19:18:24 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:24 [INFO] Waiting for SSH, up to timeout: 5m0s
+2025/11/23 19:18:24 ui: ==> amazon-ebs: Waiting for SSH to become available...
+2025/11/23 19:18:24 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:24 Using host value: 54.236.250.127
+2025/11/23 19:18:28 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:28 [DEBUG] TCP connection to SSH ip/port failed: dial tcp 54.236.250.127:22: connectex: No connection could be made because the target machine actively refused it.
+2025/11/23 19:18:33 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:33 Using host value: 54.236.250.127
+2025/11/23 19:18:33 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:33 [INFO] Attempting SSH connection to 54.236.250.127:22...
+2025/11/23 19:18:33 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:33 [DEBUG] reconnecting to TCP connection for SSH
+2025/11/23 19:18:34 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:34 [DEBUG] handshaking with SSH
+2025/11/23 19:18:35 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:35 [DEBUG] handshake complete!
+2025/11/23 19:18:35 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:35 [ERROR] Failed to get SSH agent: Cannot connect to SSH Agent named pipe "\\\\.\\pipe\\openssh-ssh-agent": open \\.\pipe\openssh-ssh-agent: The system cannot find the file specified.
+2025/11/23 19:18:35 ui: ==> amazon-ebs: Connected to SSH!
+2025/11/23 19:18:35 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:35 Running the provision hook
+2025/11/23 19:18:35 [INFO] (telemetry) Starting provisioner shell
+2025/11/23 19:18:35 ui: ==> amazon-ebs: Provisioning with shell script: ./Installations/nodejs.sh
+2025/11/23 19:18:35 packer.exe plugin: Opening ./Installations/nodejs.sh for reading
+2025/11/23 19:18:35 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:35 [DEBUG] Opening new ssh session
+2025/11/23 19:18:35 packer.exe plugin: [INFO] 958 bytes written for 'uploadData'
+2025/11/23 19:18:35 [INFO] 958 bytes written for 'uploadData'
+2025/11/23 19:18:35 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:35 [DEBUG] Starting remote scp process:  scp -vt /tmp
+2025/11/23 19:18:35 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:35 [DEBUG] Started SCP session, beginning transfers...
+2025/11/23 19:18:35 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:35 [DEBUG] Copying input data into temporary file so we can read the length
+2025/11/23 19:18:35 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:35 [DEBUG] scp: Uploading script_5429.sh: perms=C0644 size=958
+2025/11/23 19:18:36 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:36 [DEBUG] SCP session complete, closing stdin pipe.
+2025/11/23 19:18:36 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:36 [DEBUG] Waiting for SSH session to complete.
+2025/11/23 19:18:36 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:36 [DEBUG] scp stderr (length 70): Sink: C0644 958 script_5429.sh
+2025/11/23 19:18:36 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: scp: debug1: fd 0 clearing O_NONBLOCK
+2025/11/23 19:18:36 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:36 [DEBUG] Opening new ssh session
+2025/11/23 19:18:36 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:36 [DEBUG] starting remote command: chmod 0755 /tmp/script_5429.sh
+2025/11/23 19:18:36 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:36 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:18:36 [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:18:36 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:18:36 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:18:36 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:36 [DEBUG] Opening new ssh session
+2025/11/23 19:18:36 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:18:36 [DEBUG] starting remote command: chmod +x /tmp/script_5429.sh; PACKER_BUILDER_TYPE='amazon-ebs' PACKER_BUILD_NAME='amazon-ebs'  /tmp/script_5429.sh
+2025/11/23 19:18:36 ui error: ==> amazon-ebs:
+2025/11/23 19:18:36 ui error: ==> amazon-ebs: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+2025/11/23 19:18:36 ui error: ==> amazon-ebs:
+2025/11/23 19:18:36 ui: ==> amazon-ebs: Hit:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble InRelease
+2025/11/23 19:18:36 ui: ==> amazon-ebs: Get:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+2025/11/23 19:18:36 ui: ==> amazon-ebs: Get:3 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+2025/11/23 19:18:36 ui: ==> amazon-ebs: Get:4 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+2025/11/23 19:18:36 ui: ==> amazon-ebs: Get:5 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble/universe amd64 Packages [15.0 MB]
+2025/11/23 19:18:37 ui: ==> amazon-ebs: Get:6 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble/universe Translation-en [5982 kB]
+2025/11/23 19:18:37 ui: ==> amazon-ebs: Get:7 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [1317 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:8 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble/universe amd64 Components [3871 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:9 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble/universe amd64 c-n-f Metadata [301 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:10 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble/multiverse amd64 Packages [269 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:11 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble/multiverse Translation-en [118 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:12 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble/multiverse amd64 Components [35.0 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:13 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble/multiverse amd64 c-n-f Metadata [8328 B]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:14 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1619 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:15 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [303 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:16 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:17 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 c-n-f Metadata [15.7 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:18 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1500 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:19 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [304 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:20 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [378 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:21 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/universe amd64 c-n-f Metadata [31.4 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:22 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [2307 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:23 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [526 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:24 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:25 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [30.3 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:26 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/multiverse Translation-en [5808 B]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:27 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:28 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 c-n-f Metadata [484 B]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:29 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports/main amd64 Packages [40.4 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:30 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports/main Translation-en [9208 B]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:31 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7148 B]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:32 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports/main amd64 c-n-f Metadata [368 B]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:33 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [28.9 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:34 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports/universe Translation-en [17.5 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:35 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [11.0 kB]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:36 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports/universe amd64 c-n-f Metadata [1444 B]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:37 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [212 B]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:38 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 c-n-f Metadata [116 B]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:39 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+2025/11/23 19:18:38 ui: ==> amazon-ebs: Get:40 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 c-n-f Metadata [116 B]
+2025/11/23 19:18:40 ui: ==> amazon-ebs: Get:41 http://security.ubuntu.com/ubuntu noble-security/main Translation-en [216 kB]
+2025/11/23 19:18:41 ui: ==> amazon-ebs: Get:42 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.5 kB]
+2025/11/23 19:18:41 ui: ==> amazon-ebs: Get:43 http://security.ubuntu.com/ubuntu noble-security/main amd64 c-n-f Metadata [9452 B]
+2025/11/23 19:18:41 ui: ==> amazon-ebs: Get:44 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [909 kB]
+2025/11/23 19:18:43 ui: ==> amazon-ebs: Get:45 http://security.ubuntu.com/ubuntu noble-security/universe Translation-en [205 kB]
+2025/11/23 19:18:43 ui: ==> amazon-ebs: Get:46 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.3 kB]
+2025/11/23 19:18:44 ui: ==> amazon-ebs: Get:47 http://security.ubuntu.com/ubuntu noble-security/universe amd64 c-n-f Metadata [19.4 kB]
+2025/11/23 19:18:44 ui: ==> amazon-ebs: Get:48 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [2153 kB]
+2025/11/23 19:18:49 ui: ==> amazon-ebs: Get:49 http://security.ubuntu.com/ubuntu noble-security/restricted Translation-en [490 kB]
+2025/11/23 19:18:50 ui: ==> amazon-ebs: Get:50 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+2025/11/23 19:18:50 ui: ==> amazon-ebs: Get:51 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [27.4 kB]
+2025/11/23 19:18:50 ui: ==> amazon-ebs: Get:52 http://security.ubuntu.com/ubuntu noble-security/multiverse Translation-en [5956 B]
+2025/11/23 19:18:50 ui: ==> amazon-ebs: Get:53 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [212 B]
+2025/11/23 19:18:50 ui: ==> amazon-ebs: Get:54 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 c-n-f Metadata [384 B]
+2025/11/23 19:18:56 ui: ==> amazon-ebs: Fetched 38.7 MB in 14s (2683 kB/s)
+2025/11/23 19:18:58 ui: ==> amazon-ebs: Reading package lists...
+2025/11/23 19:18:58 ui: ==> amazon-ebs: Building dependency tree...
+2025/11/23 19:18:58 ui: ==> amazon-ebs: Reading state information...
+2025/11/23 19:18:58 ui: ==> amazon-ebs: 20 packages can be upgraded. Run 'apt list --upgradable' to see them.
+2025/11/23 19:18:58 ui error: ==> amazon-ebs:
+2025/11/23 19:18:58 ui error: ==> amazon-ebs: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+2025/11/23 19:18:58 ui error: ==> amazon-ebs:
+2025/11/23 19:18:58 ui: ==> amazon-ebs: Reading package lists...
+2025/11/23 19:18:58 ui: ==> amazon-ebs: Building dependency tree...
+2025/11/23 19:18:58 ui: ==> amazon-ebs: Reading state information...
+2025/11/23 19:18:58 ui: ==> amazon-ebs: Calculating upgrade...
+2025/11/23 19:18:59 ui: ==> amazon-ebs: The following NEW packages will be installed:
+2025/11/23 19:18:59 ui: ==> amazon-ebs:   linux-aws-6.14-headers-6.14.0-1017 linux-aws-6.14-tools-6.14.0-1017
+2025/11/23 19:18:59 ui: ==> amazon-ebs:   linux-headers-6.14.0-1017-aws linux-image-6.14.0-1017-aws
+2025/11/23 19:18:59 ui: ==> amazon-ebs:   linux-modules-6.14.0-1017-aws linux-tools-6.14.0-1017-aws
+2025/11/23 19:18:59 ui: ==> amazon-ebs: The following packages will be upgraded:
+2025/11/23 19:18:59 ui: ==> amazon-ebs:   bind9-dnsutils bind9-host bind9-libs gir1.2-packagekitglib-1.0
+2025/11/23 19:18:59 ui: ==> amazon-ebs:   intel-microcode libdrm-common libdrm2 libpackagekit-glib2-18
+2025/11/23 19:18:59 ui: ==> amazon-ebs:   libpython3-stdlib libssh-4 libxml2 linux-aws linux-headers-aws
+2025/11/23 19:18:59 ui: ==> amazon-ebs:   linux-image-aws linux-tools-common packagekit packagekit-tools python3
+2025/11/23 19:18:59 ui: ==> amazon-ebs:   python3-minimal snapd
+2025/11/23 19:18:59 ui: ==> amazon-ebs: 20 upgraded, 6 newly installed, 0 to remove and 0 not upgraded.
+2025/11/23 19:18:59 ui: ==> amazon-ebs: 9 standard LTS security updates
+2025/11/23 19:18:59 ui: ==> amazon-ebs: Need to get 122 MB of archives.
+2025/11/23 19:18:59 ui: ==> amazon-ebs: After this operation, 179 MB of additional disk space will be used.
+2025/11/23 19:18:59 ui: ==> amazon-ebs: Do you want to continue? [Y/n] Abort.
+2025/11/23 19:18:59 ui: ==> amazon-ebs: [38;5;79m2025-11-24 01:19:11 - Installing pre-requisites[0m
+2025/11/23 19:18:59 ui error: ==> amazon-ebs:
+2025/11/23 19:18:59 ui error: ==> amazon-ebs: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+2025/11/23 19:18:59 ui error: ==> amazon-ebs:
+2025/11/23 19:18:59 ui: ==> amazon-ebs: Hit:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble InRelease
+2025/11/23 19:18:59 ui: ==> amazon-ebs: Hit:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates InRelease
+2025/11/23 19:18:59 ui: ==> amazon-ebs: Hit:3 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports InRelease
+2025/11/23 19:18:59 ui: ==> amazon-ebs: Hit:4 http://security.ubuntu.com/ubuntu noble-security InRelease
+2025/11/23 19:19:01 ui: ==> amazon-ebs: Reading package lists...
+2025/11/23 19:19:01 ui: ==> amazon-ebs: Building dependency tree...
+2025/11/23 19:19:01 ui: ==> amazon-ebs: Reading state information...
+2025/11/23 19:19:01 ui: ==> amazon-ebs: 20 packages can be upgraded. Run 'apt list --upgradable' to see them.
+2025/11/23 19:19:01 ui error: ==> amazon-ebs:
+2025/11/23 19:19:01 ui error: ==> amazon-ebs: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+2025/11/23 19:19:01 ui error: ==> amazon-ebs:
+2025/11/23 19:19:01 ui: ==> amazon-ebs: Reading package lists...
+2025/11/23 19:19:02 ui: ==> amazon-ebs: Building dependency tree...
+2025/11/23 19:19:02 ui: ==> amazon-ebs: Reading state information...
+2025/11/23 19:19:02 ui: ==> amazon-ebs: ca-certificates is already the newest version (20240203).
+2025/11/23 19:19:02 ui: ==> amazon-ebs: ca-certificates set to manually installed.
+2025/11/23 19:19:02 ui: ==> amazon-ebs: curl is already the newest version (8.5.0-2ubuntu10.6).
+2025/11/23 19:19:02 ui: ==> amazon-ebs: curl set to manually installed.
+2025/11/23 19:19:02 ui: ==> amazon-ebs: gnupg is already the newest version (2.4.4-2ubuntu17.3).
+2025/11/23 19:19:02 ui: ==> amazon-ebs: gnupg set to manually installed.
+2025/11/23 19:19:02 ui: ==> amazon-ebs: The following NEW packages will be installed:
+2025/11/23 19:19:02 ui: ==> amazon-ebs:   apt-transport-https
+2025/11/23 19:19:02 ui: ==> amazon-ebs: 0 upgraded, 1 newly installed, 0 to remove and 20 not upgraded.
+2025/11/23 19:19:02 ui: ==> amazon-ebs: Need to get 3970 B of archives.
+2025/11/23 19:19:02 ui: ==> amazon-ebs: After this operation, 36.9 kB of additional disk space will be used.
+2025/11/23 19:19:02 ui: ==> amazon-ebs: Get:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/universe amd64 apt-transport-https all 2.8.3 [3970 B]
+2025/11/23 19:19:03 ui error: ==> amazon-ebs: debconf: unable to initialize frontend: Dialog
+2025/11/23 19:19:03 ui error: ==> amazon-ebs: debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+2025/11/23 19:19:03 ui error: ==> amazon-ebs: debconf: falling back to frontend: Readline
+2025/11/23 19:19:03 ui error: ==> amazon-ebs: debconf: unable to initialize frontend: Readline
+2025/11/23 19:19:03 ui error: ==> amazon-ebs: debconf: (This frontend requires a controlling tty.)
+2025/11/23 19:19:03 ui error: ==> amazon-ebs: debconf: falling back to frontend: Teletype
+2025/11/23 19:19:03 ui error: ==> amazon-ebs: dpkg-preconfigure: unable to re-open stdin:
+2025/11/23 19:19:03 ui: ==> amazon-ebs: Fetched 3970 B in 0s (279 kB/s)
+2025/11/23 19:19:03 ui: ==> amazon-ebs: Selecting previously unselected package apt-transport-https.
+2025/11/23 19:19:03 ui: ==> amazon-ebs: (Reading database ... 71735 files and directories currently installed.)
+2025/11/23 19:19:03 ui: ==> amazon-ebs: Preparing to unpack .../apt-transport-https_2.8.3_all.deb ...
+2025/11/23 19:19:03 ui: ==> amazon-ebs: Unpacking apt-transport-https (2.8.3) ...
+2025/11/23 19:19:03 ui: ==> amazon-ebs: Setting up apt-transport-https (2.8.3) ...
+2025/11/23 19:19:04 ui error: ==> amazon-ebs: debconf: unable to initialize frontend: Dialog
+2025/11/23 19:19:04 ui error: ==> amazon-ebs: debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+2025/11/23 19:19:04 ui error: ==> amazon-ebs: debconf: falling back to frontend: Readline
+2025/11/23 19:19:04 ui error: ==> amazon-ebs: debconf: unable to initialize frontend: Readline
+2025/11/23 19:19:04 ui error: ==> amazon-ebs: debconf: (This frontend requires a controlling tty.)
+2025/11/23 19:19:04 ui error: ==> amazon-ebs: debconf: falling back to frontend: Teletype
+2025/11/23 19:19:04 ui error: ==> amazon-ebs:
+2025/11/23 19:19:04 ui error: ==> amazon-ebs: Running kernel seems to be up-to-date.
+2025/11/23 19:19:04 ui error: ==> amazon-ebs:
+2025/11/23 19:19:04 ui error: ==> amazon-ebs: No services need to be restarted.
+2025/11/23 19:19:04 ui error: ==> amazon-ebs:
+2025/11/23 19:19:04 ui error: ==> amazon-ebs: No containers need to be restarted.
+2025/11/23 19:19:04 ui error: ==> amazon-ebs:
+2025/11/23 19:19:04 ui error: ==> amazon-ebs: No user sessions are running outdated binaries.
+2025/11/23 19:19:04 ui error: ==> amazon-ebs:
+2025/11/23 19:19:04 ui error: ==> amazon-ebs: No VM guests are running outdated hypervisor (qemu) binaries on this host.
+2025/11/23 19:19:06 ui error: ==> amazon-ebs:
+2025/11/23 19:19:06 ui error: ==> amazon-ebs: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+2025/11/23 19:19:06 ui error: ==> amazon-ebs:
+2025/11/23 19:19:06 ui: ==> amazon-ebs: Hit:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble InRelease
+2025/11/23 19:19:06 ui: ==> amazon-ebs: Hit:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates InRelease
+2025/11/23 19:19:06 ui: ==> amazon-ebs: Hit:3 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports InRelease
+2025/11/23 19:19:06 ui: ==> amazon-ebs: Hit:4 http://security.ubuntu.com/ubuntu noble-security InRelease
+2025/11/23 19:19:06 ui: ==> amazon-ebs: Get:5 https://deb.nodesource.com/node_22.x nodistro InRelease [12.1 kB]
+2025/11/23 19:19:07 ui: ==> amazon-ebs: Get:6 https://deb.nodesource.com/node_22.x nodistro/main amd64 Packages [8481 B]
+2025/11/23 19:19:07 ui: ==> amazon-ebs: Fetched 20.6 kB in 1s (30.1 kB/s)
+2025/11/23 19:19:08 ui: ==> amazon-ebs: Reading package lists...
+2025/11/23 19:19:08 ui: ==> amazon-ebs: Building dependency tree...
+2025/11/23 19:19:08 ui: ==> amazon-ebs: Reading state information...
+2025/11/23 19:19:08 ui: ==> amazon-ebs: 20 packages can be upgraded. Run 'apt list --upgradable' to see them.
+2025/11/23 19:19:08 ui: ==> amazon-ebs: [1;34m2025-11-24 01:19:21 - Repository configured successfully.[0m
+2025/11/23 19:19:08 ui: ==> amazon-ebs: [38;5;79m2025-11-24 01:19:21 - To install Node.js, run: apt install nodejs -y[0m
+2025/11/23 19:19:08 ui: ==> amazon-ebs: [38;5;79m2025-11-24 01:19:21 - You can use N|solid Runtime as a node.js alternative[0m
+2025/11/23 19:19:08 ui: ==> amazon-ebs: [1;32m2025-11-24 01:19:21 - To install N|solid Runtime, run: apt install nsolid -y
+2025/11/23 19:19:08 ui: ==> amazon-ebs: [0m
+2025/11/23 19:19:08 ui: ==> amazon-ebs: Reading package lists...
+2025/11/23 19:19:09 ui: ==> amazon-ebs: Building dependency tree...
+2025/11/23 19:19:09 ui: ==> amazon-ebs: Reading state information...
+2025/11/23 19:19:09 ui: ==> amazon-ebs: The following NEW packages will be installed:
+2025/11/23 19:19:09 ui: ==> amazon-ebs:   nodejs
+2025/11/23 19:19:09 ui: ==> amazon-ebs: 0 upgraded, 1 newly installed, 0 to remove and 20 not upgraded.
+2025/11/23 19:19:09 ui: ==> amazon-ebs: Need to get 37.6 MB of archives.
+2025/11/23 19:19:09 ui: ==> amazon-ebs: After this operation, 237 MB of additional disk space will be used.
+2025/11/23 19:19:09 ui: ==> amazon-ebs: Get:1 https://deb.nodesource.com/node_22.x nodistro/main amd64 nodejs amd64 22.21.0-1nodesource1 [37.6 MB]
+2025/11/23 19:19:10 ui error: ==> amazon-ebs: debconf: unable to initialize frontend: Dialog
+2025/11/23 19:19:10 ui error: ==> amazon-ebs: debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+2025/11/23 19:19:10 ui error: ==> amazon-ebs: debconf: falling back to frontend: Readline
+2025/11/23 19:19:10 ui error: ==> amazon-ebs: debconf: unable to initialize frontend: Readline
+2025/11/23 19:19:10 ui error: ==> amazon-ebs: debconf: (This frontend requires a controlling tty.)
+2025/11/23 19:19:10 ui error: ==> amazon-ebs: debconf: falling back to frontend: Teletype
+2025/11/23 19:19:10 ui error: ==> amazon-ebs: dpkg-preconfigure: unable to re-open stdin:
+2025/11/23 19:19:10 ui: ==> amazon-ebs: Fetched 37.6 MB in 1s (65.9 MB/s)
+2025/11/23 19:19:10 ui: ==> amazon-ebs: Selecting previously unselected package nodejs.
+2025/11/23 19:19:10 ui: ==> amazon-ebs: (Reading database ... 71739 files and directories currently installed.)
+2025/11/23 19:19:10 ui: ==> amazon-ebs: Preparing to unpack .../nodejs_22.21.0-1nodesource1_amd64.deb ...
+2025/11/23 19:19:10 ui: ==> amazon-ebs: Unpacking nodejs (22.21.0-1nodesource1) ...
+2025/11/23 19:19:14 ui: ==> amazon-ebs: Setting up nodejs (22.21.0-1nodesource1) ...
+2025/11/23 19:19:14 ui: ==> amazon-ebs: Processing triggers for man-db (2.12.0-4build2) ...
+2025/11/23 19:19:16 ui error: ==> amazon-ebs: debconf: unable to initialize frontend: Dialog
+2025/11/23 19:19:16 ui error: ==> amazon-ebs: debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+2025/11/23 19:19:16 ui error: ==> amazon-ebs: debconf: falling back to frontend: Readline
+2025/11/23 19:19:16 ui error: ==> amazon-ebs: debconf: unable to initialize frontend: Readline
+2025/11/23 19:19:16 ui error: ==> amazon-ebs: debconf: (This frontend requires a controlling tty.)
+2025/11/23 19:19:16 ui error: ==> amazon-ebs: debconf: falling back to frontend: Teletype
+2025/11/23 19:19:17 ui error: ==> amazon-ebs:
+2025/11/23 19:19:17 ui error: ==> amazon-ebs: Running kernel seems to be up-to-date.
+2025/11/23 19:19:17 ui error: ==> amazon-ebs:
+2025/11/23 19:19:17 ui error: ==> amazon-ebs: No services need to be restarted.
+2025/11/23 19:19:17 ui error: ==> amazon-ebs:
+2025/11/23 19:19:17 ui error: ==> amazon-ebs: No containers need to be restarted.
+2025/11/23 19:19:17 ui error: ==> amazon-ebs:
+2025/11/23 19:19:17 ui error: ==> amazon-ebs: No user sessions are running outdated binaries.
+2025/11/23 19:19:17 ui error: ==> amazon-ebs:
+2025/11/23 19:19:17 ui error: ==> amazon-ebs: No VM guests are running outdated hypervisor (qemu) binaries on this host.
+2025/11/23 19:19:18 ui: ==> amazon-ebs: Rules updated
+2025/11/23 19:19:18 ui: ==> amazon-ebs: Rules updated (v6)
+2025/11/23 19:19:19 ui: ==> amazon-ebs: Rules updated
+2025/11/23 19:19:19 ui: ==> amazon-ebs: Rules updated (v6)
+2025/11/23 19:19:19 ui: ==> amazon-ebs: Rules updated
+2025/11/23 19:19:19 ui: ==> amazon-ebs: Rules updated (v6)
+2025/11/23 19:19:19 ui: ==> amazon-ebs: Firewall is active and enabled on system startup
+2025/11/23 19:19:19 ui error: ==> amazon-ebs: /tmp/script_5429.sh: line 15: Server: command not found
+2025/11/23 19:19:19 ui: ==> amazon-ebs: const http = require('http');
+2025/11/23 19:19:19 ui: ==> amazon-ebs:
+2025/11/23 19:19:19 ui: ==> amazon-ebs: const hostname = 'localhost';
+2025/11/23 19:19:19 ui: ==> amazon-ebs: const port = 3000;
+2025/11/23 19:19:19 ui: ==> amazon-ebs:
+2025/11/23 19:19:19 ui: ==> amazon-ebs: const server = http.createServer((req, res) => {
+2025/11/23 19:19:19 ui: ==> amazon-ebs:   res.statusCode = 200;
+2025/11/23 19:19:19 ui: ==> amazon-ebs:   res.setHeader('Content-Type', 'text/plain');
+2025/11/23 19:19:19 ui: ==> amazon-ebs:   res.end('Mi nombre es Julio Cesar Gonzalez Hernandez, estudiante de la maestria DevOps en UNIR Mexico.\n');
+2025/11/23 19:19:19 ui: ==> amazon-ebs: });
+2025/11/23 19:19:19 ui: ==> amazon-ebs:
+2025/11/23 19:19:19 ui: ==> amazon-ebs: server.listen(port, hostname, () => {
+2025/11/23 19:19:19 ui: ==> amazon-ebs:   console.log();
+2025/11/23 19:19:19 ui: ==> amazon-ebs: });
+2025/11/23 19:19:29 ui: ==> amazon-ebs:
+2025/11/23 19:19:29 ui: ==> amazon-ebs: added 133 packages in 9s
+2025/11/23 19:19:29 ui error: ==> amazon-ebs: npm notice
+2025/11/23 19:19:29 ui error: ==> amazon-ebs: npm notice New major version of npm available! 10.9.4 -> 11.6.3
+2025/11/23 19:19:29 ui error: ==> amazon-ebs: npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.6.3
+2025/11/23 19:19:29 ui error: ==> amazon-ebs: npm notice To update run: npm install -g npm@11.6.3
+2025/11/23 19:19:29 ui: ==> amazon-ebs:
+2025/11/23 19:19:29 ui: ==> amazon-ebs: 13 packages are looking for funding
+2025/11/23 19:19:29 ui error: ==> amazon-ebs: npm notice
+2025/11/23 19:19:29 ui: ==> amazon-ebs:   run `npm fund` for details
+2025/11/23 19:19:29 ui: ==> amazon-ebs:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:                         -------------
+2025/11/23 19:19:29 ui: ==> amazon-ebs:
+2025/11/23 19:19:29 ui: ==> amazon-ebs: __/\\\\\\\\\\\\\____/\\\\____________/\\\\____/\\\\\\\\\_____
+2025/11/23 19:19:29 ui: ==> amazon-ebs:  _\/\\\/////////\\\_\/\\\\\\________/\\\\\\__/\\\///////\\\___
+2025/11/23 19:19:29 ui: ==> amazon-ebs:   _\/\\\_______\/\\\_\/\\\//\\\____/\\\//\\\_\///______\//\\\__
+2025/11/23 19:19:29 ui: ==> amazon-ebs:    _\/\\\\\\\\\\\\\/__\/\\\\///\\\/\\\/_\/\\\___________/\\\/___
+2025/11/23 19:19:29 ui: ==> amazon-ebs:     _\/\\\/////////____\/\\\__\///\\\/___\/\\\________/\\\//_____
+2025/11/23 19:19:29 ui: ==> amazon-ebs:      _\/\\\_____________\/\\\____\///_____\/\\\_____/\\\//________
+2025/11/23 19:19:29 ui: ==> amazon-ebs:       _\/\\\_____________\/\\\_____________\/\\\___/\\\/___________
+2025/11/23 19:19:29 ui: ==> amazon-ebs:        _\/\\\_____________\/\\\_____________\/\\\__/\\\\\\\\\\\\\\\_
+2025/11/23 19:19:29 ui: ==> amazon-ebs:         _\///______________\///______________\///__\///////////////__
+2025/11/23 19:19:29 ui: ==> amazon-ebs:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:                           Runtime Edition
+2025/11/23 19:19:29 ui: ==> amazon-ebs:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:         PM2 is a Production Process Manager for Node.js applications
+2025/11/23 19:19:29 ui: ==> amazon-ebs:                      with a built-in Load Balancer.
+2025/11/23 19:19:29 ui: ==> amazon-ebs:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:                 Start and Daemonize any application:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:                 $ pm2 start app.js
+2025/11/23 19:19:29 ui: ==> amazon-ebs:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:                 Load Balance 4 instances of api.js:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:                 $ pm2 start api.js -i 4
+2025/11/23 19:19:29 ui: ==> amazon-ebs:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:                 Monitor in production:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:                 $ pm2 monitor
+2025/11/23 19:19:29 ui: ==> amazon-ebs:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:                 Make pm2 auto-boot at server restart:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:                 $ pm2 startup
+2025/11/23 19:19:29 ui: ==> amazon-ebs:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:                 To go further checkout:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:                 http://pm2.io/
+2025/11/23 19:19:29 ui: ==> amazon-ebs:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:
+2025/11/23 19:19:29 ui: ==> amazon-ebs:                         -------------
+2025/11/23 19:19:29 ui: ==> amazon-ebs:
+2025/11/23 19:19:29 ui: ==> amazon-ebs: [PM2] Spawning PM2 daemon with pm2_home=/home/ubuntu/.pm2
+2025/11/23 19:19:29 ui: ==> amazon-ebs: [PM2] PM2 Successfully daemonized
+2025/11/23 19:19:29 ui: ==> amazon-ebs: [PM2] Starting /home/ubuntu/myapp.js in fork_mode (1 instance)
+2025/11/23 19:19:29 ui: ==> amazon-ebs: [PM2] Done.
+2025/11/23 19:19:29 ui: ==> amazon-ebs: ┌────┬──────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+2025/11/23 19:19:29 ui: ==> amazon-ebs: │ id │ name     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+2025/11/23 19:19:29 ui: ==> amazon-ebs: ├────┼──────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+2025/11/23 19:19:29 ui: ==> amazon-ebs: │ 0  │ myapp    │ default     │ N/A     │ fork    │ 2548     │ 0s     │ 0    │ online    │ 0%       │ 29.6mb   │ ubuntu   │ disabled │
+2025/11/23 19:19:29 ui: ==> amazon-ebs: └────┴──────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+2025/11/23 19:19:30 ui: ==> amazon-ebs: [PM2] Init System found: systemd
+2025/11/23 19:19:30 ui: ==> amazon-ebs: [PM2] To setup the Startup Script, copy/paste the following command:
+2025/11/23 19:19:30 ui: ==> amazon-ebs: sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:                         -------------
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs: __/\\\\\\\\\\\\\____/\\\\____________/\\\\____/\\\\\\\\\_____
+2025/11/23 19:19:30 ui: ==> amazon-ebs:  _\/\\\/////////\\\_\/\\\\\\________/\\\\\\__/\\\///////\\\___
+2025/11/23 19:19:30 ui: ==> amazon-ebs:   _\/\\\_______\/\\\_\/\\\//\\\____/\\\//\\\_\///______\//\\\__
+2025/11/23 19:19:30 ui: ==> amazon-ebs:    _\/\\\\\\\\\\\\\/__\/\\\\///\\\/\\\/_\/\\\___________/\\\/___
+2025/11/23 19:19:30 ui: ==> amazon-ebs:     _\/\\\/////////____\/\\\__\///\\\/___\/\\\________/\\\//_____
+2025/11/23 19:19:30 ui: ==> amazon-ebs:      _\/\\\_____________\/\\\____\///_____\/\\\_____/\\\//________
+2025/11/23 19:19:30 ui: ==> amazon-ebs:       _\/\\\_____________\/\\\_____________\/\\\___/\\\/___________
+2025/11/23 19:19:30 ui: ==> amazon-ebs:        _\/\\\_____________\/\\\_____________\/\\\__/\\\\\\\\\\\\\\\_
+2025/11/23 19:19:30 ui: ==> amazon-ebs:         _\///______________\///______________\///__\///////////////__
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:                           Runtime Edition
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:         PM2 is a Production Process Manager for Node.js applications
+2025/11/23 19:19:30 ui: ==> amazon-ebs:                      with a built-in Load Balancer.
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:                 Start and Daemonize any application:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:                 $ pm2 start app.js
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:                 Load Balance 4 instances of api.js:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:                 $ pm2 start api.js -i 4
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:                 Monitor in production:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:                 $ pm2 monitor
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:                 Make pm2 auto-boot at server restart:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:                 $ pm2 startup
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:                 To go further checkout:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:                 http://pm2.io/
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs:                         -------------
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs: [PM2] Init System found: systemd
+2025/11/23 19:19:30 ui: ==> amazon-ebs: Platform systemd
+2025/11/23 19:19:30 ui: ==> amazon-ebs: Template
+2025/11/23 19:19:30 ui: ==> amazon-ebs: [Unit]
+2025/11/23 19:19:30 ui: ==> amazon-ebs: Description=PM2 process manager
+2025/11/23 19:19:30 ui: ==> amazon-ebs: Documentation=https://pm2.keymetrics.io/
+2025/11/23 19:19:30 ui: ==> amazon-ebs: After=network.target
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs: [Service]
+2025/11/23 19:19:30 ui: ==> amazon-ebs: Type=forking
+2025/11/23 19:19:30 ui: ==> amazon-ebs: User=ubuntu
+2025/11/23 19:19:30 ui: ==> amazon-ebs: LimitNOFILE=infinity
+2025/11/23 19:19:30 ui: ==> amazon-ebs: LimitNPROC=infinity
+2025/11/23 19:19:30 ui: ==> amazon-ebs: LimitCORE=infinity
+2025/11/23 19:19:30 ui: ==> amazon-ebs: Environment=PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+2025/11/23 19:19:30 ui: ==> amazon-ebs: Environment=PM2_HOME=/home/ubuntu/.pm2
+2025/11/23 19:19:30 ui: ==> amazon-ebs: PIDFile=/home/ubuntu/.pm2/pm2.pid
+2025/11/23 19:19:30 ui: ==> amazon-ebs: Restart=on-failure
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs: ExecStart=/usr/lib/node_modules/pm2/bin/pm2 resurrect
+2025/11/23 19:19:30 ui error: ==> amazon-ebs: Created symlink /etc/systemd/system/multi-user.target.wants/pm2-ubuntu.service → /etc/systemd/system/pm2-ubuntu.service.
+2025/11/23 19:19:30 ui: ==> amazon-ebs: ExecReload=/usr/lib/node_modules/pm2/bin/pm2 reload all
+2025/11/23 19:19:30 ui: ==> amazon-ebs: ExecStop=/usr/lib/node_modules/pm2/bin/pm2 kill
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs: [Install]
+2025/11/23 19:19:30 ui: ==> amazon-ebs: WantedBy=multi-user.target
+2025/11/23 19:19:30 ui: ==> amazon-ebs:
+2025/11/23 19:19:30 ui: ==> amazon-ebs: Target path
+2025/11/23 19:19:30 ui: ==> amazon-ebs: /etc/systemd/system/pm2-ubuntu.service
+2025/11/23 19:19:30 ui: ==> amazon-ebs: Command list
+2025/11/23 19:19:30 ui: ==> amazon-ebs: [ 'systemctl enable pm2-ubuntu' ]
+2025/11/23 19:19:30 ui: ==> amazon-ebs: [PM2] Writing init configuration in /etc/systemd/system/pm2-ubuntu.service
+2025/11/23 19:19:30 ui: ==> amazon-ebs: [PM2] Making script booting at startup...
+2025/11/23 19:19:30 ui: ==> amazon-ebs: [PM2] [-] Executing: systemctl enable pm2-ubuntu...
+2025/11/23 19:19:31 ui: ==> amazon-ebs: [PM2] [v] Command successfully executed.
+2025/11/23 19:19:31 ui: ==> amazon-ebs: +---------------------------------------+
+2025/11/23 19:19:31 ui: ==> amazon-ebs: [PM2] Freeze a process list on reboot via:
+2025/11/23 19:19:31 ui: ==> amazon-ebs: $ pm2 save
+2025/11/23 19:19:31 ui: ==> amazon-ebs:
+2025/11/23 19:19:31 ui: ==> amazon-ebs: [PM2] Remove init script via:
+2025/11/23 19:19:31 ui: ==> amazon-ebs: $ pm2 unstartup systemd
+2025/11/23 19:19:31 ui: ==> amazon-ebs: [PM2] Saving current process list...
+2025/11/23 19:19:31 ui: ==> amazon-ebs: [PM2] Successfully saved in /home/ubuntu/.pm2/dump.pm2
+2025/11/23 19:19:31 ui error: ==> amazon-ebs: Job for pm2-ubuntu.service failed because the service did not take the steps required by its unit configuration.
+2025/11/23 19:19:31 ui error: ==> amazon-ebs: See "systemctl status pm2-ubuntu.service" and "journalctl -xeu pm2-ubuntu.service" for details.
+2025/11/23 19:19:31 ui: ==> amazon-ebs: [PM2] Applying action stopProcessId on app [myapp](ids: [ 0 ])
+2025/11/23 19:19:31 ui: ==> amazon-ebs: [PM2] [myapp](0) ✓
+2025/11/23 19:19:31 ui: ==> amazon-ebs: ┌────┬──────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+2025/11/23 19:19:31 ui: ==> amazon-ebs: │ id │ name     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+2025/11/23 19:19:31 ui: ==> amazon-ebs: ├────┼──────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+2025/11/23 19:19:31 ui: ==> amazon-ebs: │ 0  │ myapp    │ default     │ N/A     │ fork    │ 0        │ 0      │ 0    │ stopped   │ 0%       │ 0b       │ ubuntu   │ disabled │
+2025/11/23 19:19:31 ui: ==> amazon-ebs: └────┴──────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+2025/11/23 19:19:32 ui: ==> amazon-ebs: Use --update-env to update environment variables
+2025/11/23 19:19:32 ui: ==> amazon-ebs: [PM2] Applying action restartProcessId on app [myapp](ids: [ 0 ])
+2025/11/23 19:19:32 ui: ==> amazon-ebs: [PM2] [myapp](0) ✓
+2025/11/23 19:19:32 ui: ==> amazon-ebs: ┌────┬──────────┬─────────────┬─────────┬─────────┬──────────┬────────┬──────┬───────────┬──────────┬──────────┬──────────┬──────────┐
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:19:32 [INFO] 20297 bytes written for 'stdout'
+2025/11/23 19:19:32 [INFO] 2994 bytes written for 'stderr'
+2025/11/23 19:19:32 [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:19:32 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:19:32 packer.exe plugin: [INFO] 20297 bytes written for 'stdout'
+2025/11/23 19:19:32 packer.exe plugin: [INFO] 2994 bytes written for 'stderr'
+2025/11/23 19:19:32 ui: ==> amazon-ebs: │ id │ name     │ namespace   │ version │ mode    │ pid      │ uptime │ ↺    │ status    │ cpu      │ mem      │ user     │ watching │
+2025/11/23 19:19:32 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:19:32 ui: ==> amazon-ebs: ├────┼──────────┼─────────────┼─────────┼─────────┼──────────┼────────┼──────┼───────────┼──────────┼──────────┼──────────┼──────────┤
+2025/11/23 19:19:32 ui: ==> amazon-ebs: │ 0  │ myapp    │ default     │ N/A     │ fork    │ 2669     │ 0s     │ 0    │ online    │ 0%       │ 20.6mb   │ ubuntu   │ disabled │
+2025/11/23 19:19:32 ui: ==> amazon-ebs: └────┴──────────┴─────────────┴─────────┴─────────┴──────────┴────────┴──────┴───────────┴──────────┴──────────┴──────────┴──────────┘
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [DEBUG] Opening new ssh session
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [DEBUG] starting remote command: rm -f /tmp/script_5429.sh
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:19:32 [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:19:32 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:19:32 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [DEBUG] Opening new ssh session
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [DEBUG] starting remote command: rm -f
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:19:32 [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:19:32 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:19:32 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:19:32 [INFO] (telemetry) ending shell
+2025/11/23 19:19:32 [INFO] (telemetry) Starting provisioner shell
+2025/11/23 19:19:32 ui: ==> amazon-ebs: Provisioning with shell script: ./Installations/nginx.sh
+2025/11/23 19:19:32 packer.exe plugin: Opening ./Installations/nginx.sh for reading
+2025/11/23 19:19:32 packer.exe plugin: [INFO] 216 bytes written for 'uploadData'
+2025/11/23 19:19:32 [INFO] 216 bytes written for 'uploadData'
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [DEBUG] Opening new ssh session
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [DEBUG] Starting remote scp process:  scp -vt /tmp
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [DEBUG] Started SCP session, beginning transfers...
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [DEBUG] Copying input data into temporary file so we can read the length
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [DEBUG] scp: Uploading script_1397.sh: perms=C0644 size=216
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [DEBUG] SCP session complete, closing stdin pipe.
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [DEBUG] Waiting for SSH session to complete.
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [DEBUG] scp stderr (length 70): Sink: C0644 216 script_1397.sh
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: scp: debug1: fd 0 clearing O_NONBLOCK
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [DEBUG] Opening new ssh session
+2025/11/23 19:19:32 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:32 [DEBUG] starting remote command: chmod 0755 /tmp/script_1397.sh
+2025/11/23 19:19:33 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:33 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:19:33 [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:19:33 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:19:33 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:19:33 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:33 [DEBUG] Opening new ssh session
+2025/11/23 19:19:33 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:19:33 [DEBUG] starting remote command: chmod +x /tmp/script_1397.sh; PACKER_BUILDER_TYPE='amazon-ebs' PACKER_BUILD_NAME='amazon-ebs'  /tmp/script_1397.sh
+2025/11/23 19:20:03 ui error: ==> amazon-ebs:
+2025/11/23 19:20:03 ui error: ==> amazon-ebs: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+2025/11/23 19:20:03 ui error: ==> amazon-ebs:
+2025/11/23 19:20:03 ui: ==> amazon-ebs: Hit:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble InRelease
+2025/11/23 19:20:03 ui: ==> amazon-ebs: Hit:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates InRelease
+2025/11/23 19:20:03 ui: ==> amazon-ebs: Hit:3 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-backports InRelease
+2025/11/23 19:20:03 ui: ==> amazon-ebs: Hit:4 https://deb.nodesource.com/node_22.x nodistro InRelease
+2025/11/23 19:20:03 ui: ==> amazon-ebs: Hit:5 http://security.ubuntu.com/ubuntu noble-security InRelease
+2025/11/23 19:20:05 ui: ==> amazon-ebs: Reading package lists...
+2025/11/23 19:20:05 ui: ==> amazon-ebs: Building dependency tree...
+2025/11/23 19:20:05 ui: ==> amazon-ebs: Reading state information...
+2025/11/23 19:20:05 ui: ==> amazon-ebs: 20 packages can be upgraded. Run 'apt list --upgradable' to see them.
+2025/11/23 19:20:05 ui error: ==> amazon-ebs:
+2025/11/23 19:20:05 ui error: ==> amazon-ebs: WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+2025/11/23 19:20:05 ui error: ==> amazon-ebs:
+2025/11/23 19:20:05 ui: ==> amazon-ebs: Reading package lists...
+2025/11/23 19:20:06 ui: ==> amazon-ebs: Building dependency tree...
+2025/11/23 19:20:06 ui: ==> amazon-ebs: Reading state information...
+2025/11/23 19:20:06 ui: ==> amazon-ebs: The following additional packages will be installed:
+2025/11/23 19:20:06 ui: ==> amazon-ebs:   nginx-common
+2025/11/23 19:20:06 ui: ==> amazon-ebs: Suggested packages:
+2025/11/23 19:20:06 ui: ==> amazon-ebs:   fcgiwrap nginx-doc ssl-cert
+2025/11/23 19:20:06 ui: ==> amazon-ebs: The following NEW packages will be installed:
+2025/11/23 19:20:06 ui: ==> amazon-ebs:   nginx nginx-common
+2025/11/23 19:20:06 ui: ==> amazon-ebs: 0 upgraded, 2 newly installed, 0 to remove and 20 not upgraded.
+2025/11/23 19:20:06 ui: ==> amazon-ebs: Need to get 564 kB of archives.
+2025/11/23 19:20:06 ui: ==> amazon-ebs: After this operation, 1596 kB of additional disk space will be used.
+2025/11/23 19:20:06 ui: ==> amazon-ebs: Get:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 nginx-common all 1.24.0-2ubuntu7.5 [43.4 kB]
+2025/11/23 19:20:06 ui: ==> amazon-ebs: Get:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu noble-updates/main amd64 nginx amd64 1.24.0-2ubuntu7.5 [520 kB]
+2025/11/23 19:20:06 ui error: ==> amazon-ebs: debconf: unable to initialize frontend: Dialog
+2025/11/23 19:20:06 ui error: ==> amazon-ebs: debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+2025/11/23 19:20:06 ui error: ==> amazon-ebs: debconf: falling back to frontend: Readline
+2025/11/23 19:20:06 ui error: ==> amazon-ebs: debconf: unable to initialize frontend: Readline
+2025/11/23 19:20:06 ui error: ==> amazon-ebs: debconf: (This frontend requires a controlling tty.)
+2025/11/23 19:20:06 ui error: ==> amazon-ebs: debconf: falling back to frontend: Teletype
+2025/11/23 19:20:06 ui error: ==> amazon-ebs: dpkg-preconfigure: unable to re-open stdin:
+2025/11/23 19:20:06 ui: ==> amazon-ebs: Fetched 564 kB in 0s (23.8 MB/s)
+2025/11/23 19:20:06 ui: ==> amazon-ebs: Selecting previously unselected package nginx-common.
+2025/11/23 19:20:07 ui: ==> amazon-ebs: (Reading database ... 77914 files and directories currently installed.)
+2025/11/23 19:20:07 ui: ==> amazon-ebs: Preparing to unpack .../nginx-common_1.24.0-2ubuntu7.5_all.deb ...
+2025/11/23 19:20:07 ui: ==> amazon-ebs: Unpacking nginx-common (1.24.0-2ubuntu7.5) ...
+2025/11/23 19:20:07 ui: ==> amazon-ebs: Selecting previously unselected package nginx.
+2025/11/23 19:20:07 ui: ==> amazon-ebs: Preparing to unpack .../nginx_1.24.0-2ubuntu7.5_amd64.deb ...
+2025/11/23 19:20:07 ui: ==> amazon-ebs: Unpacking nginx (1.24.0-2ubuntu7.5) ...
+2025/11/23 19:20:07 ui: ==> amazon-ebs: Setting up nginx-common (1.24.0-2ubuntu7.5) ...
+2025/11/23 19:20:07 ui: ==> amazon-ebs: debconf: unable to initialize frontend: Dialog
+2025/11/23 19:20:07 ui: ==> amazon-ebs: debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+2025/11/23 19:20:07 ui: ==> amazon-ebs: debconf: falling back to frontend: Readline
+2025/11/23 19:20:07 ui: ==> amazon-ebs: debconf: unable to initialize frontend: Readline
+2025/11/23 19:20:07 ui: ==> amazon-ebs: debconf: (This frontend requires a controlling tty.)
+2025/11/23 19:20:07 ui: ==> amazon-ebs: debconf: falling back to frontend: Teletype
+2025/11/23 19:20:08 ui: ==> amazon-ebs: Created symlink /etc/systemd/system/multi-user.target.wants/nginx.service → /usr/lib/systemd/system/nginx.service.
+2025/11/23 19:20:08 ui: ==> amazon-ebs: Setting up nginx (1.24.0-2ubuntu7.5) ...
+2025/11/23 19:20:08 ui: ==> amazon-ebs:  * Upgrading binary nginx
+2025/11/23 19:20:09 ui: ==> amazon-ebs:    ...done.
+2025/11/23 19:20:09 ui: ==> amazon-ebs: Processing triggers for man-db (2.12.0-4build2) ...
+2025/11/23 19:20:10 ui: ==> amazon-ebs: Processing triggers for ufw (0.36.2-6) ...
+2025/11/23 19:20:11 ui error: ==> amazon-ebs: debconf: unable to initialize frontend: Dialog
+2025/11/23 19:20:11 ui error: ==> amazon-ebs: debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+2025/11/23 19:20:11 ui error: ==> amazon-ebs: debconf: falling back to frontend: Readline
+2025/11/23 19:20:11 ui error: ==> amazon-ebs: debconf: unable to initialize frontend: Readline
+2025/11/23 19:20:11 ui error: ==> amazon-ebs: debconf: (This frontend requires a controlling tty.)
+2025/11/23 19:20:11 ui error: ==> amazon-ebs: debconf: falling back to frontend: Teletype
+2025/11/23 19:20:11 ui error: ==> amazon-ebs:
+2025/11/23 19:20:11 ui error: ==> amazon-ebs: Running kernel seems to be up-to-date.
+2025/11/23 19:20:11 ui error: ==> amazon-ebs:
+2025/11/23 19:20:11 ui error: ==> amazon-ebs: No services need to be restarted.
+2025/11/23 19:20:11 ui error: ==> amazon-ebs:
+2025/11/23 19:20:11 ui error: ==> amazon-ebs: No containers need to be restarted.
+2025/11/23 19:20:11 ui error: ==> amazon-ebs:
+2025/11/23 19:20:11 ui error: ==> amazon-ebs: No user sessions are running outdated binaries.
+2025/11/23 19:20:11 ui error: ==> amazon-ebs:
+2025/11/23 19:20:11 ui error: ==> amazon-ebs: No VM guests are running outdated hypervisor (qemu) binaries on this host.
+2025/11/23 19:20:13 ui: ==> amazon-ebs: Skipping adding existing rule
+2025/11/23 19:20:13 ui: ==> amazon-ebs: Skipping adding existing rule (v6)
+2025/11/23 19:20:13 ui: ==> amazon-ebs: Skipping adding existing rule
+2025/11/23 19:20:13 ui: ==> amazon-ebs: Skipping adding existing rule (v6)
+2025/11/23 19:20:13 ui: ==> amazon-ebs: Skipping adding existing rule
+2025/11/23 19:20:13 ui: ==> amazon-ebs: Skipping adding existing rule (v6)
+2025/11/23 19:20:14 ui: ==> amazon-ebs: Rule added
+2025/11/23 19:20:14 ui: ==> amazon-ebs: Rule added (v6)
+2025/11/23 19:20:14 ui: ==> amazon-ebs: Firewall is active and enabled on system startup
+2025/11/23 19:20:14 ui error: ==> amazon-ebs: Synchronizing state of nginx.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+2025/11/23 19:20:14 ui error: ==> amazon-ebs: Executing: /usr/lib/systemd/systemd-sysv-install enable nginx
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:20:15 [INFO] 3128 bytes written for 'stdout'
+2025/11/23 19:20:15 [INFO] 1326 bytes written for 'stderr'
+2025/11/23 19:20:15 [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:20:15 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:20:15 packer.exe plugin: [INFO] 1326 bytes written for 'stderr'
+2025/11/23 19:20:15 packer.exe plugin: [INFO] 3128 bytes written for 'stdout'
+2025/11/23 19:20:15 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [DEBUG] Opening new ssh session
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [DEBUG] starting remote command: rm -f /tmp/script_1397.sh
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:20:15 [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:20:15 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:20:15 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [DEBUG] Opening new ssh session
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [DEBUG] starting remote command: rm -f
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:20:15 [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:20:15 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:20:15 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:20:15 [INFO] (telemetry) ending shell
+2025/11/23 19:20:15 [INFO] (telemetry) Starting provisioner file
+2025/11/23 19:20:15 ui: ==> amazon-ebs: Uploading ./files/default => /tmp/
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [DEBUG] Opening new ssh session
+2025/11/23 19:20:15 packer.exe plugin: [INFO] 608 bytes written for 'uploadData'
+2025/11/23 19:20:15 [INFO] 608 bytes written for 'uploadData'
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [DEBUG] Starting remote scp process:  scp -vt /tmp
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [DEBUG] Started SCP session, beginning transfers...
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [DEBUG] scp: Uploading default: perms=C0666 size=608
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [DEBUG] SCP session complete, closing stdin pipe.
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [DEBUG] Waiting for SSH session to complete.
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [DEBUG] scp stderr (length 63): Sink: C0666 608 default
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: scp: debug1: fd 0 clearing O_NONBLOCK
+2025/11/23 19:20:15 packer.exe plugin: closing
+2025/11/23 19:20:15 closing
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 closing
+2025/11/23 19:20:15 [INFO] (telemetry) ending file
+2025/11/23 19:20:15 [INFO] (telemetry) Starting provisioner shell
+2025/11/23 19:20:15 ui: ==> amazon-ebs: Provisioning with shell script: C:\Users\iscju\AppData\Local\Temp\packer-shell3451547883
+2025/11/23 19:20:15 packer.exe plugin: Opening C:\Users\iscju\AppData\Local\Temp\packer-shell3451547883 for reading
+2025/11/23 19:20:15 packer.exe plugin: [INFO] 98 bytes written for 'uploadData'
+2025/11/23 19:20:15 [INFO] 98 bytes written for 'uploadData'
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [DEBUG] Opening new ssh session
+2025/11/23 19:20:15 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:15 [DEBUG] Starting remote scp process:  scp -vt /tmp
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [DEBUG] Started SCP session, beginning transfers...
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [DEBUG] Copying input data into temporary file so we can read the length
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [DEBUG] scp: Uploading script_7226.sh: perms=C0644 size=98
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [DEBUG] SCP session complete, closing stdin pipe.
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [DEBUG] Waiting for SSH session to complete.
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [DEBUG] scp stderr (length 69): Sink: C0644 98 script_7226.sh
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: scp: debug1: fd 0 clearing O_NONBLOCK
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [DEBUG] Opening new ssh session
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [DEBUG] starting remote command: chmod 0755 /tmp/script_7226.sh
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:20:16 [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:20:16 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:20:16 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [DEBUG] Opening new ssh session
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [DEBUG] starting remote command: chmod +x /tmp/script_7226.sh; PACKER_BUILDER_TYPE='amazon-ebs' PACKER_BUILD_NAME='amazon-ebs'  /tmp/script_7226.sh
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:20:16 [INFO] 0 bytes written for 'stdout'
+2025/11/23 19:20:16 [INFO] 0 bytes written for 'stderr'
+2025/11/23 19:20:16 [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:20:16 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:20:16 packer.exe plugin: [INFO] 0 bytes written for 'stderr'
+2025/11/23 19:20:16 packer.exe plugin: [INFO] 0 bytes written for 'stdout'
+2025/11/23 19:20:16 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [DEBUG] Opening new ssh session
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [DEBUG] starting remote command: rm -f /tmp/script_7226.sh
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:20:16 [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:20:16 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:20:16 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [DEBUG] Opening new ssh session
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [DEBUG] starting remote command: rm -f
+2025/11/23 19:20:16 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:16 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:20:16 [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:20:16 [INFO] RPC endpoint: Communicator ended with: 0
+2025/11/23 19:20:16 packer.exe plugin: [INFO] RPC client: Communicator ended with: 0
+2025/11/23 19:20:16 [INFO] (telemetry) ending shell
+2025/11/23 19:20:16 ui: ==> amazon-ebs: Stopping the source instance...
+2025/11/23 19:20:16 ui: ==> amazon-ebs: Stopping instance
+2025/11/23 19:20:17 ui: ==> amazon-ebs: Waiting for the instance to stop...
+2025/11/23 19:20:32 ui: ==> amazon-ebs: Creating AMI act1-DMD-ubuntu-nodejs-nginx from instance i-07b1b7c45fb7c2d27
+2025/11/23 19:20:32 ui: ==> amazon-ebs: Attaching run tags to AMI...
+2025/11/23 19:20:33 ui: ==> amazon-ebs: AMI: ami-070e22549dc49c1b4
+2025/11/23 19:20:33 ui: ==> amazon-ebs: Waiting for AMI to become ready...
+2025/11/23 19:20:33 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:20:33 Waiting for AMI (ami-070e22549dc49c1b4) to be available...
+2025/11/23 19:24:41 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/23 19:24:41 fast-boot disabled, no launch-template to set
+2025/11/23 19:24:41 ui: ==> amazon-ebs: Skipping Enable AMI deprecation...
+2025/11/23 19:24:41 ui: ==> amazon-ebs: Skipping Enable AMI deregistration protection...
+2025/11/23 19:24:41 ui: ==> amazon-ebs: Terminating the source AWS instance...
+2025/11/23 19:24:57 ui: ==> amazon-ebs: Cleaning up any extra volumes...
+2025/11/23 19:24:57 ui: ==> amazon-ebs: No volumes to clean up, skipping
+2025/11/23 19:24:57 ui: ==> amazon-ebs: Deleting temporary security group...
+2025/11/23 19:24:58 ui: ==> amazon-ebs: Deleting temporary keypair...
+2025/11/23 19:24:58 [INFO] (telemetry) ending amazon-ebs
+2025/11/23 19:24:58 ui: Build 'amazon-ebs' finished after 6 minutes 52 seconds.
+2025/11/23 19:24:58 ui: 
+==> Wait completed after 6 minutes 52 seconds
+2025/11/23 19:24:58 ui: 
+==> Builds finished. The artifacts of successful builds are:
+2025/11/23 19:24:58 machine readable: amazon-ebs,artifact-count []string{"1"}
+2025/11/23 19:24:58 machine readable: amazon-ebs,artifact []string{"0", "builder-id", "mitchellh.amazonebs"}
+2025/11/23 19:24:58 machine readable: amazon-ebs,artifact []string{"0", "id", "us-east-1:ami-070e22549dc49c1b4"}
+2025/11/23 19:24:58 machine readable: amazon-ebs,artifact []string{"0", "string", "AMIs were created:\nus-east-1: ami-070e22549dc49c1b4\n"}
+2025/11/23 19:24:58 machine readable: amazon-ebs,artifact []string{"0", "files-count", "0"}
+2025/11/23 19:24:58 machine readable: amazon-ebs,artifact []string{"0", "end"}
+2025/11/23 19:24:58 ui: --> amazon-ebs: AMIs were created:
+us-east-1: ami-070e22549dc49c1b4
+2025/11/23 19:24:58 [INFO] (telemetry) Finalizing.
+2025/11/23 19:24:58 waiting for all plugin processes to complete...
+2025/11/23 19:24:58 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
+2025/11/23 19:24:58 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
+2025/11/23 19:24:58 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
+2025/11/23 19:24:58 C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\amazon\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe: plugin process exited
+2025/11/23 19:24:58 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
