@@ -1,0 +1,57 @@
+{
+    "builders": [
+        {
+            "type": "amazon-ebs",
+            "access_key": "AKIA5Q7LEJ6X4JFLVUMX",
+            "secret_key": "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",
+            "region": "us-east-1",
+            "ami_name": "act1-DMD-ubuntu-nodejs-nginx-auto",
+            "source_ami": "ami-0ecb62995f68bb549",
+            "instance_type": "t2.micro",
+            "ssh_username": "ubuntu"        
+        },
+        {
+            "type": "azure-arm",
+            "client_id": "5dea8672-feb0-4635-bc49-07e99abf0ac8",
+            "client_secret": "740ca8e5-4a4e-4e51-9276-d20b80166dff",
+            "tenant_id": "f525ae3b-4fd2-49ac-9ab7-a59b88770b30",
+            "subscription_id": "1cdf4300-dee5-4518-9c9c-feaa72a5cbd1",
+
+            "managed_image_resource_group_name": "myResourceGroup",
+            "managed_image_name": "act1-DMD-ubuntu-nodejs-nginx-auto",
+
+            "os_type": "Linux",
+            "image_publisher": "Canonical",
+            "image_offer": "UbuntuServer",
+            "image_sku": "20.04-LTS",
+            "location": "East US",
+            "vm_size": "Standard_B1s"
+    }
+    ],
+    "provisioners": [
+        {
+            "type": "shell",
+            "script": "./Installations/nodejs.sh"
+        },
+        {
+            "type": "shell",
+            "script": "./Installations/nginx.sh"
+        },
+        {
+            "type": "file",
+            "source" : "./files/default",
+            "destination" : "/tmp/"
+        },
+        {
+            "type": "shell",
+            "inline": ["sudo cp /tmp/default /etc/nginx/sites-available/default","sudo systemctl restart nginx"]
+        }
+    ],
+    "post-processors": [
+        {
+            "type": "manifest",
+            "output": "packer-manifest.json",
+            "strip_path": true
+        }
+    ]
+}
