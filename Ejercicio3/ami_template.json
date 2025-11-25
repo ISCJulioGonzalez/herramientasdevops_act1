@@ -1,0 +1,49 @@
+{
+    "builders": [
+        {
+            "type": "amazon-ebs",
+            "access_key": "AKIA5Q7LEJ6XWX5QP4UZ",
+            "secret_key": "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",
+            "region": "us-east-1",
+            "ami_name": "act1-DMD-ubuntu-nodejs-nginx-auto",
+            "source_ami": "ami-0ecb62995f68bb549",
+            "instance_type": "t2.micro",
+            "ssh_username": "ubuntu"        
+        },
+    {
+            "type": "googlecompute",
+            "project_id": "unirherramientasdevopsact1jcg",
+            "image_name": "act1-dmd-ubuntu-nodejs-nginx-auto",
+            "source_image_family": "ubuntu-2404-lts-amd64",
+            "zone": "us-east1-b",
+            "machine_type": "f1-micro",
+            "ssh_username": "ubuntu"
+    }
+    ],
+    "provisioners": [
+        {
+            "type": "shell",
+            "script": "./Installations/nodejs.sh"
+        },
+        {
+            "type": "shell",
+            "script": "./Installations/nginx.sh"
+        },
+        {
+            "type": "file",
+            "source" : "./files/default",
+            "destination" : "/tmp/"
+        },
+        {
+            "type": "shell",
+            "inline": ["sudo cp /tmp/default /etc/nginx/sites-available/default","sudo systemctl restart nginx"]
+        }
+    ],
+    "post-processors": [
+        {
+            "type": "manifest",
+            "output": "packer-manifest.json",
+            "strip_path": true
+        }
+    ]
+}
