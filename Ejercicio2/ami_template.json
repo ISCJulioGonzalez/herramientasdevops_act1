@@ -1,0 +1,44 @@
+{
+    "builders": [
+        {
+            "type": "amazon-ebs",
+            "access_key": "AKIA5Q7LEJ6X4JFLVUMX",
+            "secret_key": "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",
+            "region": "us-east-1",
+            "ami_name": "act1-DMD-ubuntu-nodejs-nginx-auto",
+            "source_ami": "ami-0ecb62995f68bb549",
+            "instance_type": "t2.micro",
+            "ssh_username": "ubuntu"        
+        }
+    ],
+    "provisioners": [
+        {
+            "type": "shell",
+            "script": "./Installations/nodejs.sh"
+        },
+        {
+            "type": "shell",
+            "script": "./Installations/nginx.sh"
+        },
+        {
+            "type": "file",
+            "source" : "./files/default",
+            "destination" : "/tmp/"
+        },
+        {
+            "type": "shell",
+            "inline": ["sudo cp /tmp/default /etc/nginx/sites-available/default","sudo systemctl restart nginx"]
+        },
+        {
+            "type": "shell",
+            "script": "deployment.sh"
+        }
+    ],
+    "post-processors": [
+        {
+            "type": "manifest",
+            "output": "output.json",
+            "strip_path": true
+        }
+    ]
+}
