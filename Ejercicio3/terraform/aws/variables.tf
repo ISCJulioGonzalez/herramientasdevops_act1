@@ -7,7 +7,7 @@ variable "aws_region" {
 variable "key_name" {
     description = "Name of the Key Pair"
     type        = string
-    default     = "myapp-key-pair.pem"
+    default     = "awskeypair.pem"
 }
 
 variable "ami_id" {

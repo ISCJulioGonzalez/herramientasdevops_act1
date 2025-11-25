@@ -1,120 +1,222 @@
-2025/11/24 12:44:09 [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
-2025/11/24 12:44:09 [INFO] PACKER_CONFIG env var not set; checking the default config file path
-2025/11/24 12:44:09 [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
-2025/11/24 12:44:09 [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
-2025/11/24 12:44:09 [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio2_2\packer_cache
+2025/11/24 21:33:30 [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/24 21:33:30 [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/24 21:33:30 [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:30 [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:30 [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio3\packer_cache
 e: cannot determine if process is in background: Process background check error: not implemented yet
-2025/11/24 12:44:09 [TRACE] listing potential installations for <nil> that match "". plugingetter.ListInstallationsOptions{PluginDirectory:"C:\\Users\\iscju\\AppData\\Roaming\\packer.d\\plugins", BinaryInstallationOptions:plugingetter.BinaryInstallationOptions{APIVersionMajor:"5", APIVersionMinor:"0", OS:"windows", ARCH:"amd64", Ext:".exe", Checksummers:[]plugingetter.Checksummer{plugingetter.Checksummer{Type:"sha256", Hash:(*sha256.digest)(0xc00051ec80)}}, ReleasesOnly:false}}
-2025/11/24 12:44:10 [INFO] found external [chroot ebs ebssurrogate ebsvolume instance] builders from amazon plugin
-2025/11/24 12:44:10 [INFO] found external [import] post-processors from amazon plugin
-2025/11/24 12:44:10 found external [ami parameterstore secretsmanager] datasource from amazon plugin
-2025/11/24 12:44:10 [TRACE] Using protobuf for communication with plugins
-2025/11/24 12:44:10 [INFO] Starting external plugin C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\amazon\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe start builder --protobuf ebs
-2025/11/24 12:44:10 Starting plugin: C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\amazon\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe []string{"C:\\Users\\iscju\\AppData\\Roaming\\packer.d\\plugins\\github.com\\hashicorp\\amazon\\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe", "start", "builder", "--protobuf", "ebs"}
-2025/11/24 12:44:10 Waiting for RPC address for: C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\amazon\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe
-2025/11/24 12:44:10 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 12:44:10 Plugin port range: [10000,25000]
-2025/11/24 12:44:10 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 12:44:10 Plugin address: tcp 127.0.0.1:10000
-2025/11/24 12:44:10 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 12:44:10 Waiting for connection...
-2025/11/24 12:44:10 Received tcp RPC address for C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\amazon\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe: addr is 127.0.0.1:10000
-2025/11/24 12:44:10 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 12:44:10 Serving a plugin connection...
-2025/11/24 12:44:10 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 12:44:10 [TRACE] starting builder ebs
-2025/11/24 12:44:10 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-shell
-2025/11/24 12:44:10 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-shell"}
-2025/11/24 12:44:10 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
-2025/11/24 12:44:10 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
-2025/11/24 12:44:10 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
-2025/11/24 12:44:10 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
-2025/11/24 12:44:10 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
-2025/11/24 12:44:10 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio2_2\packer_cache
-2025/11/24 12:44:10 packer.exe plugin: Plugin port range: [10000,25000]
-2025/11/24 12:44:10 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
-2025/11/24 12:44:10 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
-2025/11/24 12:44:10 packer.exe plugin: Waiting for connection...
-2025/11/24 12:44:10 packer.exe plugin: Serving a plugin connection...
-2025/11/24 12:44:10 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-shell
-2025/11/24 12:44:10 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-shell"}
-2025/11/24 12:44:10 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
-2025/11/24 12:44:10 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
-2025/11/24 12:44:10 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
-2025/11/24 12:44:10 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
-2025/11/24 12:44:10 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
-2025/11/24 12:44:10 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio2_2\packer_cache
-2025/11/24 12:44:10 packer.exe plugin: Plugin port range: [10000,25000]
-2025/11/24 12:44:10 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
-2025/11/24 12:44:10 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
-2025/11/24 12:44:10 packer.exe plugin: Waiting for connection...
-2025/11/24 12:44:10 packer.exe plugin: Serving a plugin connection...
-2025/11/24 12:44:10 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-file
-2025/11/24 12:44:10 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-file"}
-2025/11/24 12:44:10 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
-2025/11/24 12:44:10 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
-2025/11/24 12:44:10 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
-2025/11/24 12:44:10 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
-2025/11/24 12:44:10 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
-2025/11/24 12:44:10 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio2_2\packer_cache
-2025/11/24 12:44:10 packer.exe plugin: Plugin port range: [10000,25000]
-2025/11/24 12:44:10 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
-2025/11/24 12:44:10 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
-2025/11/24 12:44:10 packer.exe plugin: Waiting for connection...
-2025/11/24 12:44:10 packer.exe plugin: Serving a plugin connection...
-2025/11/24 12:44:10 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-shell
-2025/11/24 12:44:10 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-shell"}
-2025/11/24 12:44:10 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
-2025/11/24 12:44:10 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
-2025/11/24 12:44:10 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
-2025/11/24 12:44:10 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
-2025/11/24 12:44:10 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
-2025/11/24 12:44:10 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio2_2\packer_cache
-2025/11/24 12:44:10 packer.exe plugin: Plugin port range: [10000,25000]
-2025/11/24 12:44:10 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
-2025/11/24 12:44:10 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
-2025/11/24 12:44:10 packer.exe plugin: Waiting for connection...
-2025/11/24 12:44:10 packer.exe plugin: Serving a plugin connection...
-2025/11/24 12:44:10 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-post-processor-manifest
-2025/11/24 12:44:10 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-post-processor-manifest"}
-2025/11/24 12:44:10 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
-2025/11/24 12:44:10 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
-2025/11/24 12:44:10 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
-2025/11/24 12:44:10 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
-2025/11/24 12:44:10 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
-2025/11/24 12:44:10 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio2_2\packer_cache
-2025/11/24 12:44:10 packer.exe plugin: Plugin port range: [10000,25000]
-2025/11/24 12:44:10 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
-2025/11/24 12:44:10 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
-2025/11/24 12:44:10 packer.exe plugin: Waiting for connection...
-2025/11/24 12:44:10 packer.exe plugin: Serving a plugin connection...
-2025/11/24 12:44:10 Preparing build: amazon-ebs
-2025/11/24 12:44:10 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 12:44:10 [INFO] (aws): No AWS timeout and polling overrides have been set. Packer will default to waiter-specific delays and timeouts. If you would like to customize the length of time between retries and max number of retries you may do so by setting the environment variables AWS_POLL_DELAY_SECONDS and AWS_MAX_ATTEMPTS or the configuration options aws_polling_delay_seconds and aws_polling_max_attempts to your desired values.
-2025/11/24 12:44:10 ui: amazon-ebs: output will be in this color.
-2025/11/24 12:44:10 ui: 
-2025/11/24 12:44:10 Build debug mode: false
-2025/11/24 12:44:10 Force build: false
-2025/11/24 12:44:10 On error: 
-2025/11/24 12:44:10 Waiting on builds to complete...
-2025/11/24 12:44:10 Starting build run: amazon-ebs
-2025/11/24 12:44:10 Running builder: amazon-ebs
-2025/11/24 12:44:10 [INFO] (telemetry) Starting builder amazon-ebs
-2025/11/24 12:44:11 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 12:44:11 Found region us-east-1
-2025/11/24 12:44:11 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 12:44:11 [INFO] AWS Auth provider used: "StaticCredentials"
-2025/11/24 12:44:11 ui: ==> amazon-ebs: Prevalidating any provided VPC information
-2025/11/24 12:44:11 ui: ==> amazon-ebs: Prevalidating AMI Name: act1-DMD-ubuntu-nodejs-nginx-auto
-2025/11/24 12:44:11 ui error: ==> amazon-ebs: Error: AMI Name: 'act1-DMD-ubuntu-nodejs-nginx-auto' is used by an existing AMI: ami-06295390000b5de10
-2025/11/24 12:44:11 [INFO] (telemetry) ending amazon-ebs
-2025/11/24 12:44:11 ui error: Build 'amazon-ebs' errored after 772 milliseconds 491 microseconds: Error: AMI Name: 'act1-DMD-ubuntu-nodejs-nginx-auto' is used by an existing AMI: ami-06295390000b5de10
-2025/11/24 12:44:11 ui: 
-==> Wait completed after 772 milliseconds 491 microseconds
-2025/11/24 12:44:11 machine readable: error-count []string{"1"}
-2025/11/24 12:44:11 ui error: 
+2025/11/24 21:33:30 [TRACE] listing potential installations for <nil> that match "". plugingetter.ListInstallationsOptions{PluginDirectory:"C:\\Users\\iscju\\AppData\\Roaming\\packer.d\\plugins", BinaryInstallationOptions:plugingetter.BinaryInstallationOptions{APIVersionMajor:"5", APIVersionMinor:"0", OS:"windows", ARCH:"amd64", Ext:".exe", Checksummers:[]plugingetter.Checksummer{plugingetter.Checksummer{Type:"sha256", Hash:(*sha256.digest)(0xc00069b000)}}, ReleasesOnly:false}}
+2025/11/24 21:33:30 [INFO] found external [chroot ebs ebssurrogate ebsvolume instance] builders from amazon plugin
+2025/11/24 21:33:30 [INFO] found external [import] post-processors from amazon plugin
+2025/11/24 21:33:30 found external [ami parameterstore secretsmanager] datasource from amazon plugin
+2025/11/24 21:33:30 [INFO] found external [-packer-default-plugin-name-] builders from googlecompute plugin
+2025/11/24 21:33:30 [INFO] found external [export import] post-processors from googlecompute plugin
+2025/11/24 21:33:30 found external [image parametermanager secretsmanager] datasource from googlecompute plugin
+2025/11/24 21:33:30 [TRACE] Using protobuf for communication with plugins
+2025/11/24 21:33:30 [INFO] Starting external plugin C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\amazon\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe start builder --protobuf ebs
+2025/11/24 21:33:30 Starting plugin: C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\amazon\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe []string{"C:\\Users\\iscju\\AppData\\Roaming\\packer.d\\plugins\\github.com\\hashicorp\\amazon\\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe", "start", "builder", "--protobuf", "ebs"}
+2025/11/24 21:33:30 Waiting for RPC address for: C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\amazon\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe
+2025/11/24 21:33:31 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 Plugin port range: [10000,25000]
+2025/11/24 21:33:31 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 Plugin address: tcp 127.0.0.1:10000
+2025/11/24 21:33:31 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 Waiting for connection...
+2025/11/24 21:33:31 Received tcp RPC address for C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\amazon\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe: addr is 127.0.0.1:10000
+2025/11/24 21:33:31 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 Serving a plugin connection...
+2025/11/24 21:33:31 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 [TRACE] starting builder ebs
+2025/11/24 21:33:31 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-shell
+2025/11/24 21:33:31 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-shell"}
+2025/11/24 21:33:31 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio3\packer_cache
+2025/11/24 21:33:31 packer.exe plugin: Plugin port range: [10000,25000]
+2025/11/24 21:33:31 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2025/11/24 21:33:31 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
+2025/11/24 21:33:31 packer.exe plugin: Waiting for connection...
+2025/11/24 21:33:31 packer.exe plugin: Serving a plugin connection...
+2025/11/24 21:33:31 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-shell
+2025/11/24 21:33:31 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-shell"}
+2025/11/24 21:33:31 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio3\packer_cache
+2025/11/24 21:33:31 packer.exe plugin: Plugin port range: [10000,25000]
+2025/11/24 21:33:31 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2025/11/24 21:33:31 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
+2025/11/24 21:33:31 packer.exe plugin: Waiting for connection...
+2025/11/24 21:33:31 packer.exe plugin: Serving a plugin connection...
+2025/11/24 21:33:31 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-file
+2025/11/24 21:33:31 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-file"}
+2025/11/24 21:33:31 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio3\packer_cache
+2025/11/24 21:33:31 packer.exe plugin: Plugin port range: [10000,25000]
+2025/11/24 21:33:31 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2025/11/24 21:33:31 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
+2025/11/24 21:33:31 packer.exe plugin: Waiting for connection...
+2025/11/24 21:33:31 packer.exe plugin: Serving a plugin connection...
+2025/11/24 21:33:31 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-shell
+2025/11/24 21:33:31 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-shell"}
+2025/11/24 21:33:31 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio3\packer_cache
+2025/11/24 21:33:31 packer.exe plugin: Plugin port range: [10000,25000]
+2025/11/24 21:33:31 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2025/11/24 21:33:31 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
+2025/11/24 21:33:31 packer.exe plugin: Waiting for connection...
+2025/11/24 21:33:31 packer.exe plugin: Serving a plugin connection...
+2025/11/24 21:33:31 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-post-processor-manifest
+2025/11/24 21:33:31 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-post-processor-manifest"}
+2025/11/24 21:33:31 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio3\packer_cache
+2025/11/24 21:33:31 packer.exe plugin: Plugin port range: [10000,25000]
+2025/11/24 21:33:31 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2025/11/24 21:33:31 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
+2025/11/24 21:33:31 packer.exe plugin: Waiting for connection...
+2025/11/24 21:33:31 packer.exe plugin: Serving a plugin connection...
+2025/11/24 21:33:31 Preparing build: amazon-ebs
+2025/11/24 21:33:31 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 [INFO] (aws): No AWS timeout and polling overrides have been set. Packer will default to waiter-specific delays and timeouts. If you would like to customize the length of time between retries and max number of retries you may do so by setting the environment variables AWS_POLL_DELAY_SECONDS and AWS_MAX_ATTEMPTS or the configuration options aws_polling_delay_seconds and aws_polling_max_attempts to your desired values.
+2025/11/24 21:33:31 [INFO] Starting external plugin C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\googlecompute\packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe start builder --protobuf -packer-default-plugin-name-
+2025/11/24 21:33:31 Starting plugin: C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\googlecompute\packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe []string{"C:\\Users\\iscju\\AppData\\Roaming\\packer.d\\plugins\\github.com\\hashicorp\\googlecompute\\packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe", "start", "builder", "--protobuf", "-packer-default-plugin-name-"}
+2025/11/24 21:33:31 Waiting for RPC address for: C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\googlecompute\packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe
+2025/11/24 21:33:31 packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 Plugin port range: [10000,25000]
+2025/11/24 21:33:31 packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 Plugin address: tcp 127.0.0.1:10000
+2025/11/24 21:33:31 Received tcp RPC address for C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\googlecompute\packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe: addr is 127.0.0.1:10000
+2025/11/24 21:33:31 packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 Waiting for connection...
+2025/11/24 21:33:31 packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 Serving a plugin connection...
+2025/11/24 21:33:31 packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 [TRACE] starting builder -packer-default-plugin-name-
+2025/11/24 21:33:31 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-shell
+2025/11/24 21:33:31 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-shell"}
+2025/11/24 21:33:31 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio3\packer_cache
+2025/11/24 21:33:31 packer.exe plugin: Plugin port range: [10000,25000]
+2025/11/24 21:33:31 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
+2025/11/24 21:33:31 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2025/11/24 21:33:31 packer.exe plugin: Waiting for connection...
+2025/11/24 21:33:31 packer.exe plugin: Serving a plugin connection...
+2025/11/24 21:33:31 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-shell
+2025/11/24 21:33:31 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-shell"}
+2025/11/24 21:33:31 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio3\packer_cache
+2025/11/24 21:33:31 packer.exe plugin: Plugin port range: [10000,25000]
+2025/11/24 21:33:31 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2025/11/24 21:33:31 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
+2025/11/24 21:33:31 packer.exe plugin: Waiting for connection...
+2025/11/24 21:33:31 packer.exe plugin: Serving a plugin connection...
+2025/11/24 21:33:31 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-file
+2025/11/24 21:33:31 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-file"}
+2025/11/24 21:33:31 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio3\packer_cache
+2025/11/24 21:33:31 packer.exe plugin: Plugin port range: [10000,25000]
+2025/11/24 21:33:31 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
+2025/11/24 21:33:31 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2025/11/24 21:33:31 packer.exe plugin: Waiting for connection...
+2025/11/24 21:33:31 packer.exe plugin: Serving a plugin connection...
+2025/11/24 21:33:31 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-provisioner-shell
+2025/11/24 21:33:31 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-provisioner-shell"}
+2025/11/24 21:33:31 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio3\packer_cache
+2025/11/24 21:33:31 packer.exe plugin: Plugin port range: [10000,25000]
+2025/11/24 21:33:31 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2025/11/24 21:33:31 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
+2025/11/24 21:33:31 packer.exe plugin: Waiting for connection...
+2025/11/24 21:33:31 packer.exe plugin: Serving a plugin connection...
+2025/11/24 21:33:31 [INFO] Starting external plugin C:\ProgramData\chocolatey\lib\packer\tools\packer.exe execute --protobuf packer-post-processor-manifest
+2025/11/24 21:33:31 Starting plugin: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe []string{"C:\\ProgramData\\chocolatey\\lib\\packer\\tools\\packer.exe", "execute", "--protobuf", "packer-post-processor-manifest"}
+2025/11/24 21:33:31 Waiting for RPC address for: C:\ProgramData\chocolatey\lib\packer\tools\packer.exe
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Packer version: 1.14.2 [go1.23.2 windows amd64]
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2025/11/24 21:33:31 packer.exe plugin: [INFO] PACKER_CONFIG env var set; attempting to open config file: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [WARN] Config file doesn't exist: C:\Users\iscju\AppData\Roaming\packer.config
+2025/11/24 21:33:31 packer.exe plugin: [INFO] Setting cache directory: F:\Master DevOps\Master\Herramientas devops\actividades\Actividad1\Ejercicio3\packer_cache
+2025/11/24 21:33:31 packer.exe plugin: Plugin port range: [10000,25000]
+2025/11/24 21:33:31 packer.exe plugin: Plugin address: tcp 127.0.0.1:10000
+2025/11/24 21:33:31 Received tcp RPC address for C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: addr is 127.0.0.1:10000
+2025/11/24 21:33:31 packer.exe plugin: Waiting for connection...
+2025/11/24 21:33:31 packer.exe plugin: Serving a plugin connection...
+2025/11/24 21:33:31 Preparing build: googlecompute
+2025/11/24 21:33:31 ui: amazon-ebs: output will be in this color.
+2025/11/24 21:33:31 ui: googlecompute: output will be in this color.
+2025/11/24 21:33:31 ui: 
+2025/11/24 21:33:31 Build debug mode: false
+2025/11/24 21:33:31 Force build: false
+2025/11/24 21:33:31 On error: 
+2025/11/24 21:33:31 Waiting on builds to complete...
+2025/11/24 21:33:31 Starting build run: googlecompute
+2025/11/24 21:33:31 Starting build run: amazon-ebs
+2025/11/24 21:33:31 Running builder: amazon-ebs
+2025/11/24 21:33:31 Running builder: googlecompute
+2025/11/24 21:33:31 [INFO] (telemetry) Starting builder amazon-ebs
+2025/11/24 21:33:31 [INFO] (telemetry) Starting builder googlecompute
+2025/11/24 21:33:31 packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 [INFO] Requesting Google token via GCE API Default Client Token Source...
+2025/11/24 21:33:31 packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 [INFO] Instantiating GCE client...
+2025/11/24 21:33:31 packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 [INFO] Instantiating OS Login client...
+2025/11/24 21:33:31 packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 [INFO] Instantiating Oauth2 client...
+2025/11/24 21:33:31 packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 [INFO] Instantiating storage client...
+2025/11/24 21:33:31 ui: ==> googlecompute: Checking image does not exist...
+2025/11/24 21:33:31 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 Found region us-east-1
+2025/11/24 21:33:31 packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe plugin: 2025/11/24 21:33:31 [INFO] AWS Auth provider used: "StaticCredentials"
+2025/11/24 21:33:31 ui error: ==> googlecompute: Image act1-dmd-ubuntu-nodejs-nginx-auto already exists in project unirherramientasdevopsact1jcg.
+==> googlecompute: Use the force flag to delete it prior to building.
+2025/11/24 21:33:31 [INFO] (telemetry) ending googlecompute
+2025/11/24 21:33:31 ui error: Build 'googlecompute' errored after 561 milliseconds 733 microseconds: Image act1-dmd-ubuntu-nodejs-nginx-auto already exists in project unirherramientasdevopsact1jcg.
+Use the force flag to delete it prior to building.
+2025/11/24 21:33:32 ui: ==> amazon-ebs: Prevalidating any provided VPC information
+2025/11/24 21:33:32 ui: ==> amazon-ebs: Prevalidating AMI Name: act1-DMD-ubuntu-nodejs-nginx-auto
+2025/11/24 21:33:32 ui error: ==> amazon-ebs: Error: AMI Name: 'act1-DMD-ubuntu-nodejs-nginx-auto' is used by an existing AMI: ami-020926b177def2b7c
+2025/11/24 21:33:32 [INFO] (telemetry) ending amazon-ebs
+2025/11/24 21:33:32 ui error: Build 'amazon-ebs' errored after 738 milliseconds 671 microseconds: Error: AMI Name: 'act1-DMD-ubuntu-nodejs-nginx-auto' is used by an existing AMI: ami-020926b177def2b7c
+2025/11/24 21:33:32 ui: 
+==> Wait completed after 738 milliseconds 684 microseconds
+2025/11/24 21:33:32 machine readable: error-count []string{"2"}
+2025/11/24 21:33:32 ui error: 
 ==> Some builds didn't complete successfully and had errors:
-2025/11/24 12:44:11 machine readable: amazon-ebs,error []string{"Error: AMI Name: 'act1-DMD-ubuntu-nodejs-nginx-auto' is used by an existing AMI: ami-06295390000b5de10"}
-2025/11/24 12:44:11 ui error: --> amazon-ebs: Error: AMI Name: 'act1-DMD-ubuntu-nodejs-nginx-auto' is used by an existing AMI: ami-06295390000b5de10
-2025/11/24 12:44:11 ui: 
+2025/11/24 21:33:32 machine readable: googlecompute,error []string{"Image act1-dmd-ubuntu-nodejs-nginx-auto already exists in project unirherramientasdevopsact1jcg.\nUse the force flag to delete it prior to building."}
+2025/11/24 21:33:32 ui error: --> googlecompute: Image act1-dmd-ubuntu-nodejs-nginx-auto already exists in project unirherramientasdevopsact1jcg.
+Use the force flag to delete it prior to building.
+2025/11/24 21:33:32 machine readable: amazon-ebs,error []string{"Error: AMI Name: 'act1-DMD-ubuntu-nodejs-nginx-auto' is used by an existing AMI: ami-020926b177def2b7c"}
+2025/11/24 21:33:32 ui error: --> amazon-ebs: Error: AMI Name: 'act1-DMD-ubuntu-nodejs-nginx-auto' is used by an existing AMI: ami-020926b177def2b7c
+2025/11/24 21:33:32 ui: 
 ==> Builds finished but no artifacts were created.
-2025/11/24 12:44:11 [INFO] (telemetry) Finalizing.
-2025/11/24 12:44:11 waiting for all plugin processes to complete...
-2025/11/24 12:44:11 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
-2025/11/24 12:44:11 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
-2025/11/24 12:44:11 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
-2025/11/24 12:44:11 C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\amazon\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe: plugin process exited
-2025/11/24 12:44:11 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
-2025/11/24 12:44:11 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
+2025/11/24 21:33:32 [INFO] (telemetry) Finalizing.
+2025/11/24 21:33:32 waiting for all plugin processes to complete...
+2025/11/24 21:33:32 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
+2025/11/24 21:33:32 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
+2025/11/24 21:33:32 C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\amazon\packer-plugin-amazon_v1.8.0_x5.0_windows_amd64.exe: plugin process exited
+2025/11/24 21:33:32 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
+2025/11/24 21:33:32 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
+2025/11/24 21:33:32 C:\Users\iscju\AppData\Roaming\packer.d\plugins\github.com\hashicorp\googlecompute\packer-plugin-googlecompute_v1.2.4_x5.0_windows_amd64.exe: plugin process exited
+2025/11/24 21:33:32 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
+2025/11/24 21:33:32 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
+2025/11/24 21:33:32 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
+2025/11/24 21:33:32 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
+2025/11/24 21:33:32 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
+2025/11/24 21:33:32 C:\ProgramData\chocolatey\lib\packer\tools\packer.exe: plugin process exited
