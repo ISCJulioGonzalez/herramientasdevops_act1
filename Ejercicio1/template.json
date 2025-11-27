@@ -2,8 +2,8 @@
     "builders": [
         {
             "type": "amazon-ebs",
-            "access_key": "AKIA5Q7LEJ6X4JFLVUMX",
-            "secret_key": "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",
+            "access_key": "---------------",
+            "secret_key": "--------------------",
             "region": "us-east-1",
             "ami_name": "act1-DMD-ubuntu-nodejs-nginx",
             "source_ami": "ami-0ecb62995f68bb549",
@@ -30,4 +30,5 @@
             "inline": ["sudo cp /tmp/default /etc/nginx/sites-available/default","sudo systemctl restart nginx"]
         }
     ]
+
 }
