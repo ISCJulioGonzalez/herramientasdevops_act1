@@ -2,8 +2,8 @@
     "builders": [
         {
             "type": "amazon-ebs",
-            "access_key": "AKIA5Q7LEJ6XWX5QP4UZ",
-            "secret_key": "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",
+            "access_key": "---------------",
+            "secret_key": "--------------------",
             "region": "us-east-1",
             "ami_name": "act1-DMD-ubuntu-nodejs-nginx-auto",
             "source_ami": "ami-0ecb62995f68bb549",
@@ -46,4 +46,5 @@
             "strip_path": true
         }
     ]
+
 }
